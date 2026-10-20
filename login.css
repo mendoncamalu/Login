@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(168, 212, 249);
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top: 220px;
+    align-items: center;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.form-control{
+    margin-bottom: 15px;
+}
+
+.form-control label{
+    display: block;
+}
+
+/* Campo de texto, e-mail*/
+.form-control input[type="text"],
+.form-control input[type="email"],
+.form-control input[type="password"]
+{
+    width: 95%;
+    padding: 8px;
+}
+
+.opcoes label{
+    display: inline;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #063f7c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1.0s all;
+}
+
+button:hover{
+    background-color: rgb(92, 145, 205);
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #063f7c;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
